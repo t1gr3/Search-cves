@@ -524,8 +524,8 @@ os.rename("reporte_vulnerabilidades.pdf", "Reporte_Vulnerabilidades_" + fecha_ho
 
 print ("Enviando correo electronico"), '\n'
 #enviarCorreo():
-fromaddr = "bitpoc@gmail.com"
-recipients = "willian.marin@axity.com"
+fromaddr = "example@example.com"
+recipients = "example@example.com"
 
 msg = MIMEMultipart()
 
@@ -549,7 +549,7 @@ msg.attach(part)
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login(fromaddr, "Elt1gr34519331**.")
+server.login(fromaddr, "your password")
 text = msg.as_string()
 server.sendmail(fromaddr, recipients, text)
 server.quit()

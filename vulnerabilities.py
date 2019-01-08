@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import random
 import requests, time
 import smtplib
 import urllib2
@@ -13,7 +12,6 @@ from email import encoders
 from selenium import webdriver
 import os
 from os import listdir
-from fpdf import FPDF
 import os.path
 import pdfkit
 

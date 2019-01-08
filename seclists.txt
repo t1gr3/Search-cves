@@ -1,0 +1,9 @@
+#List SECLISTS
+"CHECKPOINT" site:seclists.org
+"PALO ALTO" site:seclists.org
+"RSA AUTHENTICATION" site:seclists.org
+"WEBSENSE TRITON" site:seclists.org
+"VMWARE ESXI" site:seclists.org
+"BEYONDTRUST" site:seclists.org
+"IDRAC" site:seclists.org
+"CENTOS" site:seclists.org
